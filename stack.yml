@@ -1,6 +1,7 @@
 version: 1.0
 provider:
   name: openfaas
+  gateway: faas1:8080
 functions:
   nsfw:
     lang: dockerfile
